@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141A465628D8492A0053F643 /* AddWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A465528D8492A0053F643 /* AddWeightViewController.m */; };
+		141A465F28D855AE0053F643 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A465B28D855AE0053F643 /* WSDatePickerView.xib */; };
+		141A466028D855AE0053F643 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A465C28D855AE0053F643 /* WSDatePickerView.m */; };
+		141A466128D855AE0053F643 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A465D28D855AE0053F643 /* NSDate+Extension.m */; };
+		141A466228D855AE0053F643 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A465E28D855AE0053F643 /* UIView+Extension.m */; };
+		141A466628D85AEF0053F643 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A466528D85AEF0053F643 /* UIView+Toast.m */; };
+		141A467428D873E60053F643 /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A466828D873E50053F643 /* YAxisView.m */; };
+		141A467528D873E60053F643 /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A466A28D873E50053F643 /* XAxisView.m */; };
+		141A467928D873E60053F643 /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A467228D873E60053F643 /* WSLineChartView.m */; };
+		1446F2A928D302330032134E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2A828D302330032134E /* AppDelegate.m */; };
+		1446F2AC28D302330032134E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2AB28D302330032134E /* SceneDelegate.m */; };
+		1446F2AF28D302330032134E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2AE28D302330032134E /* ViewController.m */; };
+		1446F2B228D302330032134E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1446F2B028D302330032134E /* Main.storyboard */; };
+		1446F2B428D302350032134E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1446F2B328D302350032134E /* Assets.xcassets */; };
+		1446F2B728D302350032134E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1446F2B528D302350032134E /* LaunchScreen.storyboard */; };
+		1446F2BA28D302350032134E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2B928D302350032134E /* main.m */; };
+		1446F2C228D3098C0032134E /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2C128D3098C0032134E /* AddUserViewController.m */; };
+		1446F2C528D30A200032134E /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2C428D30A200032134E /* UserModel.m */; };
+		1446F2CB28D30BA10032134E /* JListTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2C928D30BA10032134E /* JListTap.m */; };
+		1446F2CC28D30BA10032134E /* JListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2CA28D30BA10032134E /* JListView.m */; };
+		1446F2CF28D30C190032134E /* JListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2CE28D30C190032134E /* JListHeaderView.m */; };
+		1446F2D228D30EEB0032134E /* JListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2D128D30EEB0032134E /* JListCellView.m */; };
+		1446F2D528D33D4A0032134E /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2D428D33D4A0032134E /* UserInfoCell.m */; };
+		1446F2DB28D44C4C0032134E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2DA28D44C4C0032134E /* ListViewController.m */; };
+		1446F2DE28D44D6E0032134E /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2DD28D44D6E0032134E /* ListCell.m */; };
+		1446F2E128D44F8D0032134E /* AddWeightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2E028D44F8D0032134E /* AddWeightView.m */; };
+		1446F2EB28D46EF30032134E /* DGPopUpViewTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2E428D46EF30032134E /* DGPopUpViewTextView.m */; };
+		1446F2EC28D46EF30032134E /* DGPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2E528D46EF30032134E /* DGPopUpViewController.m */; };
+		1446F2ED28D46EF30032134E /* DGPopUpViewLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2E628D46EF30032134E /* DGPopUpViewLoginButton.m */; };
+		1446F2EE28D46EF30032134E /* DGPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2E828D46EF30032134E /* DGPopUpView.m */; };
+		1446F2F028D46FBE0032134E /* DGPopUpViewTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1446F2EF28D46FBE0032134E /* DGPopUpViewTextView.xib */; };
+		1446F2F328D4845E0032134E /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2F228D4845E0032134E /* ListDetailViewController.m */; };
+		147A02FD28E41F3A00891C86 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 147A02FC28E41F3A00891C86 /* UserManager.m */; };
+		A1C88E572CC2969AA4D6F5BD /* Pods_WeightTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302F224436BD09CF4A13DFC6 /* Pods_WeightTable.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		141A465428D8492A0053F643 /* AddWeightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddWeightViewController.h; sourceTree = "<group>"; };
+		141A465528D8492A0053F643 /* AddWeightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddWeightViewController.m; sourceTree = "<group>"; };
+		141A465828D855AE0053F643 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		141A465928D855AE0053F643 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		141A465A28D855AE0053F643 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		141A465B28D855AE0053F643 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		141A465C28D855AE0053F643 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		141A465D28D855AE0053F643 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		141A465E28D855AE0053F643 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		141A466428D85AEF0053F643 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		141A466528D85AEF0053F643 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		141A466828D873E50053F643 /* YAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisView.m; sourceTree = "<group>"; };
+		141A466928D873E50053F643 /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
+		141A466A28D873E50053F643 /* XAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
+		141A467128D873E60053F643 /* YAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisView.h; sourceTree = "<group>"; };
+		141A467228D873E60053F643 /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
+		141A467328D873E60053F643 /* XAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisView.h; sourceTree = "<group>"; };
+		1446F2A428D302330032134E /* WeightTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1446F2A728D302330032134E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1446F2A828D302330032134E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1446F2AA28D302330032134E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1446F2AB28D302330032134E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1446F2AD28D302330032134E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1446F2AE28D302330032134E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1446F2B128D302330032134E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1446F2B328D302350032134E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1446F2B628D302350032134E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1446F2B828D302350032134E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1446F2B928D302350032134E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1446F2C028D3098C0032134E /* AddUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddUserViewController.h; sourceTree = "<group>"; };
+		1446F2C128D3098C0032134E /* AddUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddUserViewController.m; sourceTree = "<group>"; };
+		1446F2C328D30A200032134E /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		1446F2C428D30A200032134E /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		1446F2C728D30BA10032134E /* JListTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JListTap.h; sourceTree = "<group>"; };
+		1446F2C828D30BA10032134E /* JListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JListView.h; sourceTree = "<group>"; };
+		1446F2C928D30BA10032134E /* JListTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JListTap.m; sourceTree = "<group>"; };
+		1446F2CA28D30BA10032134E /* JListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JListView.m; sourceTree = "<group>"; };
+		1446F2CD28D30C190032134E /* JListHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JListHeaderView.h; sourceTree = "<group>"; };
+		1446F2CE28D30C190032134E /* JListHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JListHeaderView.m; sourceTree = "<group>"; };
+		1446F2D028D30EEB0032134E /* JListCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JListCellView.h; sourceTree = "<group>"; };
+		1446F2D128D30EEB0032134E /* JListCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JListCellView.m; sourceTree = "<group>"; };
+		1446F2D328D33D4A0032134E /* UserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoCell.h; sourceTree = "<group>"; };
+		1446F2D428D33D4A0032134E /* UserInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
+		1446F2D928D44C4C0032134E /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		1446F2DA28D44C4C0032134E /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		1446F2DC28D44D6E0032134E /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		1446F2DD28D44D6E0032134E /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		1446F2DF28D44F8D0032134E /* AddWeightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddWeightView.h; sourceTree = "<group>"; };
+		1446F2E028D44F8D0032134E /* AddWeightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddWeightView.m; sourceTree = "<group>"; };
+		1446F2E328D46EF30032134E /* DGPopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPopUpView.h; sourceTree = "<group>"; };
+		1446F2E428D46EF30032134E /* DGPopUpViewTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPopUpViewTextView.m; sourceTree = "<group>"; };
+		1446F2E528D46EF30032134E /* DGPopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPopUpViewController.m; sourceTree = "<group>"; };
+		1446F2E628D46EF30032134E /* DGPopUpViewLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPopUpViewLoginButton.m; sourceTree = "<group>"; };
+		1446F2E728D46EF30032134E /* DGPopUpViewTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPopUpViewTextView.h; sourceTree = "<group>"; };
+		1446F2E828D46EF30032134E /* DGPopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPopUpView.m; sourceTree = "<group>"; };
+		1446F2E928D46EF30032134E /* DGPopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPopUpViewController.h; sourceTree = "<group>"; };
+		1446F2EA28D46EF30032134E /* DGPopUpViewLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPopUpViewLoginButton.h; sourceTree = "<group>"; };
+		1446F2EF28D46FBE0032134E /* DGPopUpViewTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGPopUpViewTextView.xib; sourceTree = "<group>"; };
+		1446F2F128D4845E0032134E /* ListDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListDetailViewController.h; sourceTree = "<group>"; };
+		1446F2F228D4845E0032134E /* ListDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListDetailViewController.m; sourceTree = "<group>"; };
+		147A02FB28E41F3A00891C86 /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		147A02FC28E41F3A00891C86 /* UserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		302F224436BD09CF4A13DFC6 /* Pods_WeightTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeightTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50333BF96508DCB4BE6D05CB /* Pods-WeightTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightTable.release.xcconfig"; path = "Target Support Files/Pods-WeightTable/Pods-WeightTable.release.xcconfig"; sourceTree = "<group>"; };
+		9A71953A9D19657EA6BB862B /* Pods-WeightTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightTable.debug.xcconfig"; path = "Target Support Files/Pods-WeightTable/Pods-WeightTable.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1446F2A128D302330032134E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C88E572CC2969AA4D6F5BD /* Pods_WeightTable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141A465228D83F280053F643 /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				1446F2AD28D302330032134E /* ViewController.h */,
+				1446F2AE28D302330032134E /* ViewController.m */,
+				1446F2C028D3098C0032134E /* AddUserViewController.h */,
+				1446F2C128D3098C0032134E /* AddUserViewController.m */,
+				1446F2D928D44C4C0032134E /* ListViewController.h */,
+				1446F2DA28D44C4C0032134E /* ListViewController.m */,
+				141A465428D8492A0053F643 /* AddWeightViewController.h */,
+				141A465528D8492A0053F643 /* AddWeightViewController.m */,
+				1446F2F128D4845E0032134E /* ListDetailViewController.h */,
+				1446F2F228D4845E0032134E /* ListDetailViewController.m */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		141A465328D83F3F0053F643 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1446F2DC28D44D6E0032134E /* ListCell.h */,
+				1446F2DD28D44D6E0032134E /* ListCell.m */,
+				1446F2D328D33D4A0032134E /* UserInfoCell.h */,
+				1446F2D428D33D4A0032134E /* UserInfoCell.m */,
+				1446F2DF28D44F8D0032134E /* AddWeightView.h */,
+				1446F2E028D44F8D0032134E /* AddWeightView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		141A465728D855AE0053F643 /* WSDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				141A465828D855AE0053F643 /* NSDate+Extension.h */,
+				141A465D28D855AE0053F643 /* NSDate+Extension.m */,
+				141A465A28D855AE0053F643 /* UIView+Extension.h */,
+				141A465E28D855AE0053F643 /* UIView+Extension.m */,
+				141A465928D855AE0053F643 /* WSDatePickerView.h */,
+				141A465C28D855AE0053F643 /* WSDatePickerView.m */,
+				141A465B28D855AE0053F643 /* WSDatePickerView.xib */,
+			);
+			path = WSDatePickerView;
+			sourceTree = "<group>";
+		};
+		141A466328D85AEF0053F643 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				141A466428D85AEF0053F643 /* UIView+Toast.h */,
+				141A466528D85AEF0053F643 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		141A466728D873E50053F643 /* WSLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				141A466928D873E50053F643 /* WSLineChartView.h */,
+				141A467228D873E60053F643 /* WSLineChartView.m */,
+				141A467328D873E60053F643 /* XAxisView.h */,
+				141A466A28D873E50053F643 /* XAxisView.m */,
+				141A467128D873E60053F643 /* YAxisView.h */,
+				141A466828D873E50053F643 /* YAxisView.m */,
+			);
+			path = WSLineChartView;
+			sourceTree = "<group>";
+		};
+		1446F29B28D302330032134E = {
+			isa = PBXGroup;
+			children = (
+				1446F2A628D302330032134E /* WeightTable */,
+				1446F2A528D302330032134E /* Products */,
+				E97335D094A995A6CEBCC4B0 /* Pods */,
+				1B753F825C5F3C7C9BCDF8AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1446F2A528D302330032134E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1446F2A428D302330032134E /* WeightTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1446F2A628D302330032134E /* WeightTable */ = {
+			isa = PBXGroup;
+			children = (
+				147A02FE28E41F8500891C86 /* User */,
+				141A466728D873E50053F643 /* WSLineChartView */,
+				141A466328D85AEF0053F643 /* Toast */,
+				141A465728D855AE0053F643 /* WSDatePickerView */,
+				1446F2A728D302330032134E /* AppDelegate.h */,
+				1446F2A828D302330032134E /* AppDelegate.m */,
+				1446F2AA28D302330032134E /* SceneDelegate.h */,
+				1446F2AB28D302330032134E /* SceneDelegate.m */,
+				141A465328D83F3F0053F643 /* View */,
+				141A465228D83F280053F643 /* Vc */,
+				1446F2EF28D46FBE0032134E /* DGPopUpViewTextView.xib */,
+				1446F2E228D46EF30032134E /* DGPopUpViewController */,
+				1446F2C628D30BA10032134E /* JListView */,
+				1446F2B028D302330032134E /* Main.storyboard */,
+				1446F2B328D302350032134E /* Assets.xcassets */,
+				1446F2B528D302350032134E /* LaunchScreen.storyboard */,
+				1446F2B828D302350032134E /* Info.plist */,
+				1446F2B928D302350032134E /* main.m */,
+			);
+			path = WeightTable;
+			sourceTree = "<group>";
+		};
+		1446F2C628D30BA10032134E /* JListView */ = {
+			isa = PBXGroup;
+			children = (
+				1446F2C728D30BA10032134E /* JListTap.h */,
+				1446F2C828D30BA10032134E /* JListView.h */,
+				1446F2C928D30BA10032134E /* JListTap.m */,
+				1446F2CA28D30BA10032134E /* JListView.m */,
+				1446F2CD28D30C190032134E /* JListHeaderView.h */,
+				1446F2CE28D30C190032134E /* JListHeaderView.m */,
+				1446F2D028D30EEB0032134E /* JListCellView.h */,
+				1446F2D128D30EEB0032134E /* JListCellView.m */,
+			);
+			path = JListView;
+			sourceTree = "<group>";
+		};
+		1446F2E228D46EF30032134E /* DGPopUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1446F2E328D46EF30032134E /* DGPopUpView.h */,
+				1446F2E828D46EF30032134E /* DGPopUpView.m */,
+				1446F2E928D46EF30032134E /* DGPopUpViewController.h */,
+				1446F2E528D46EF30032134E /* DGPopUpViewController.m */,
+				1446F2EA28D46EF30032134E /* DGPopUpViewLoginButton.h */,
+				1446F2E628D46EF30032134E /* DGPopUpViewLoginButton.m */,
+				1446F2E728D46EF30032134E /* DGPopUpViewTextView.h */,
+				1446F2E428D46EF30032134E /* DGPopUpViewTextView.m */,
+			);
+			path = DGPopUpViewController;
+			sourceTree = "<group>";
+		};
+		147A02FE28E41F8500891C86 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				1446F2C328D30A200032134E /* UserModel.h */,
+				1446F2C428D30A200032134E /* UserModel.m */,
+				147A02FB28E41F3A00891C86 /* UserManager.h */,
+				147A02FC28E41F3A00891C86 /* UserManager.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		1B753F825C5F3C7C9BCDF8AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302F224436BD09CF4A13DFC6 /* Pods_WeightTable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E97335D094A995A6CEBCC4B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A71953A9D19657EA6BB862B /* Pods-WeightTable.debug.xcconfig */,
+				50333BF96508DCB4BE6D05CB /* Pods-WeightTable.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1446F2A328D302330032134E /* WeightTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1446F2BD28D302350032134E /* Build configuration list for PBXNativeTarget "WeightTable" */;
+			buildPhases = (
+				6BDEF8863700285455AAC7C4 /* [CP] Check Pods Manifest.lock */,
+				1446F2A028D302330032134E /* Sources */,
+				1446F2A128D302330032134E /* Frameworks */,
+				1446F2A228D302330032134E /* Resources */,
+				8190B296DF0CC7E6A3114B71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightTable;
+			productName = WeightTable;
+			productReference = 1446F2A428D302330032134E /* WeightTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1446F29C28D302330032134E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1446F2A328D302330032134E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1446F29F28D302330032134E /* Build configuration list for PBXProject "WeightTable" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1446F29B28D302330032134E;
+			productRefGroup = 1446F2A528D302330032134E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1446F2A328D302330032134E /* WeightTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1446F2A228D302330032134E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446F2B728D302350032134E /* LaunchScreen.storyboard in Resources */,
+				1446F2B428D302350032134E /* Assets.xcassets in Resources */,
+				1446F2F028D46FBE0032134E /* DGPopUpViewTextView.xib in Resources */,
+				1446F2B228D302330032134E /* Main.storyboard in Resources */,
+				141A465F28D855AE0053F643 /* WSDatePickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BDEF8863700285455AAC7C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeightTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8190B296DF0CC7E6A3114B71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeightTable/Pods-WeightTable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeightTable/Pods-WeightTable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeightTable/Pods-WeightTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1446F2A028D302330032134E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446F2CF28D30C190032134E /* JListHeaderView.m in Sources */,
+				1446F2DE28D44D6E0032134E /* ListCell.m in Sources */,
+				1446F2ED28D46EF30032134E /* DGPopUpViewLoginButton.m in Sources */,
+				1446F2F328D4845E0032134E /* ListDetailViewController.m in Sources */,
+				147A02FD28E41F3A00891C86 /* UserManager.m in Sources */,
+				141A466628D85AEF0053F643 /* UIView+Toast.m in Sources */,
+				1446F2EC28D46EF30032134E /* DGPopUpViewController.m in Sources */,
+				1446F2AF28D302330032134E /* ViewController.m in Sources */,
+				1446F2C228D3098C0032134E /* AddUserViewController.m in Sources */,
+				1446F2C528D30A200032134E /* UserModel.m in Sources */,
+				1446F2A928D302330032134E /* AppDelegate.m in Sources */,
+				1446F2BA28D302350032134E /* main.m in Sources */,
+				1446F2D528D33D4A0032134E /* UserInfoCell.m in Sources */,
+				141A466028D855AE0053F643 /* WSDatePickerView.m in Sources */,
+				1446F2E128D44F8D0032134E /* AddWeightView.m in Sources */,
+				1446F2EB28D46EF30032134E /* DGPopUpViewTextView.m in Sources */,
+				1446F2CB28D30BA10032134E /* JListTap.m in Sources */,
+				141A466228D855AE0053F643 /* UIView+Extension.m in Sources */,
+				1446F2AC28D302330032134E /* SceneDelegate.m in Sources */,
+				141A467928D873E60053F643 /* WSLineChartView.m in Sources */,
+				1446F2DB28D44C4C0032134E /* ListViewController.m in Sources */,
+				141A465628D8492A0053F643 /* AddWeightViewController.m in Sources */,
+				141A467428D873E60053F643 /* YAxisView.m in Sources */,
+				141A467528D873E60053F643 /* XAxisView.m in Sources */,
+				1446F2CC28D30BA10032134E /* JListView.m in Sources */,
+				1446F2EE28D46EF30032134E /* DGPopUpView.m in Sources */,
+				141A466128D855AE0053F643 /* NSDate+Extension.m in Sources */,
+				1446F2D228D30EEB0032134E /* JListCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1446F2B028D302330032134E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1446F2B128D302330032134E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1446F2B528D302350032134E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1446F2B628D302350032134E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1446F2BB28D302350032134E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1446F2BC28D302350032134E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1446F2BE28D302350032134E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A71953A9D19657EA6BB862B /* Pods-WeightTable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L7LD6VG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeightTable/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeightRecord;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeightRecord.dd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1446F2BF28D302350032134E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50333BF96508DCB4BE6D05CB /* Pods-WeightTable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L7LD6VG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeightTable/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeightRecord;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeightRecord.dd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1446F29F28D302330032134E /* Build configuration list for PBXProject "WeightTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1446F2BB28D302350032134E /* Debug */,
+				1446F2BC28D302350032134E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1446F2BD28D302350032134E /* Build configuration list for PBXNativeTarget "WeightTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1446F2BE28D302350032134E /* Debug */,
+				1446F2BF28D302350032134E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1446F29C28D302330032134E /* Project object */;
+}
