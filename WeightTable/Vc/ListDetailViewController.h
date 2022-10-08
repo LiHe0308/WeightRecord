@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ListDetailViewController : UIViewController
 
-- (instancetype)initWithMax:(CGFloat)max min:(CGFloat)min weights:(NSArray *)weights XTitleArray:(NSArray *)xTitles;
+- (instancetype)initWithMax:(CGFloat)max min:(CGFloat)min weights:(NSArray *)weights XTitleArray:(NSArray *)xTitles tizhis:(NSArray *)tizhis;
 
 @end
 

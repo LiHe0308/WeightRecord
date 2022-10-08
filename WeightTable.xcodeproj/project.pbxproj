@@ -13,9 +13,12 @@
 		141A466128D855AE0053F643 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A465D28D855AE0053F643 /* NSDate+Extension.m */; };
 		141A466228D855AE0053F643 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A465E28D855AE0053F643 /* UIView+Extension.m */; };
 		141A466628D85AEF0053F643 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A466528D85AEF0053F643 /* UIView+Toast.m */; };
-		141A467428D873E60053F643 /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A466828D873E50053F643 /* YAxisView.m */; };
-		141A467528D873E60053F643 /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A466A28D873E50053F643 /* XAxisView.m */; };
-		141A467928D873E60053F643 /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A467228D873E60053F643 /* WSLineChartView.m */; };
+		1430D75028F14F8B00232127 /* ORLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430D74628F14F8B00232127 /* ORLineChartView.m */; };
+		1430D75128F14F8B00232127 /* ORLineChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430D74828F14F8B00232127 /* ORLineChartConfig.m */; };
+		1430D75228F14F8B00232127 /* ORLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430D74928F14F8B00232127 /* ORLineChartCell.m */; };
+		1430D75328F14F8B00232127 /* ORLineChartValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430D74C28F14F8B00232127 /* ORLineChartValue.m */; };
+		1430D75428F14F8B00232127 /* ORLineChartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430D74F28F14F8B00232127 /* ORLineChartButton.m */; };
+		1430D75728F14FA600232127 /* ORChartUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430D75528F14FA600232127 /* ORChartUtilities.m */; };
 		1446F2A928D302330032134E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2A828D302330032134E /* AppDelegate.m */; };
 		1446F2AC28D302330032134E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2AB28D302330032134E /* SceneDelegate.m */; };
 		1446F2AF28D302330032134E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446F2AE28D302330032134E /* ViewController.m */; };
@@ -55,12 +58,18 @@
 		141A465E28D855AE0053F643 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		141A466428D85AEF0053F643 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		141A466528D85AEF0053F643 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
-		141A466828D873E50053F643 /* YAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisView.m; sourceTree = "<group>"; };
-		141A466928D873E50053F643 /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
-		141A466A28D873E50053F643 /* XAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
-		141A467128D873E60053F643 /* YAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisView.h; sourceTree = "<group>"; };
-		141A467228D873E60053F643 /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
-		141A467328D873E60053F643 /* XAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisView.h; sourceTree = "<group>"; };
+		1430D74628F14F8B00232127 /* ORLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartView.m; sourceTree = "<group>"; };
+		1430D74728F14F8B00232127 /* ORLineChartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartButton.h; sourceTree = "<group>"; };
+		1430D74828F14F8B00232127 /* ORLineChartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartConfig.m; sourceTree = "<group>"; };
+		1430D74928F14F8B00232127 /* ORLineChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartCell.m; sourceTree = "<group>"; };
+		1430D74A28F14F8B00232127 /* ORLineChartValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartValue.h; sourceTree = "<group>"; };
+		1430D74B28F14F8B00232127 /* ORLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartView.h; sourceTree = "<group>"; };
+		1430D74C28F14F8B00232127 /* ORLineChartValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartValue.m; sourceTree = "<group>"; };
+		1430D74D28F14F8B00232127 /* ORLineChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartCell.h; sourceTree = "<group>"; };
+		1430D74E28F14F8B00232127 /* ORLineChartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartConfig.h; sourceTree = "<group>"; };
+		1430D74F28F14F8B00232127 /* ORLineChartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartButton.m; sourceTree = "<group>"; };
+		1430D75528F14FA600232127 /* ORChartUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORChartUtilities.m; sourceTree = "<group>"; };
+		1430D75628F14FA600232127 /* ORChartUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORChartUtilities.h; sourceTree = "<group>"; };
 		1446F2A428D302330032134E /* WeightTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1446F2A728D302330032134E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1446F2A828D302330032134E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,17 +185,23 @@
 			path = Toast;
 			sourceTree = "<group>";
 		};
-		141A466728D873E50053F643 /* WSLineChartView */ = {
+		1430D74528F14F8B00232127 /* ORLineChart */ = {
 			isa = PBXGroup;
 			children = (
-				141A466928D873E50053F643 /* WSLineChartView.h */,
-				141A467228D873E60053F643 /* WSLineChartView.m */,
-				141A467328D873E60053F643 /* XAxisView.h */,
-				141A466A28D873E50053F643 /* XAxisView.m */,
-				141A467128D873E60053F643 /* YAxisView.h */,
-				141A466828D873E50053F643 /* YAxisView.m */,
+				1430D74628F14F8B00232127 /* ORLineChartView.m */,
+				1430D74728F14F8B00232127 /* ORLineChartButton.h */,
+				1430D74828F14F8B00232127 /* ORLineChartConfig.m */,
+				1430D74928F14F8B00232127 /* ORLineChartCell.m */,
+				1430D74A28F14F8B00232127 /* ORLineChartValue.h */,
+				1430D74B28F14F8B00232127 /* ORLineChartView.h */,
+				1430D74C28F14F8B00232127 /* ORLineChartValue.m */,
+				1430D74D28F14F8B00232127 /* ORLineChartCell.h */,
+				1430D74E28F14F8B00232127 /* ORLineChartConfig.h */,
+				1430D74F28F14F8B00232127 /* ORLineChartButton.m */,
+				1430D75628F14FA600232127 /* ORChartUtilities.h */,
+				1430D75528F14FA600232127 /* ORChartUtilities.m */,
 			);
-			path = WSLineChartView;
+			path = ORLineChart;
 			sourceTree = "<group>";
 		};
 		1446F29B28D302330032134E = {
@@ -210,8 +225,8 @@
 		1446F2A628D302330032134E /* WeightTable */ = {
 			isa = PBXGroup;
 			children = (
+				1430D74528F14F8B00232127 /* ORLineChart */,
 				147A02FE28E41F8500891C86 /* User */,
-				141A466728D873E50053F643 /* WSLineChartView */,
 				141A466328D85AEF0053F643 /* Toast */,
 				141A465728D855AE0053F643 /* WSDatePickerView */,
 				1446F2A728D302330032134E /* AppDelegate.h */,
@@ -410,28 +425,31 @@
 				1446F2DE28D44D6E0032134E /* ListCell.m in Sources */,
 				1446F2ED28D46EF30032134E /* DGPopUpViewLoginButton.m in Sources */,
 				1446F2F328D4845E0032134E /* ListDetailViewController.m in Sources */,
+				1430D75428F14F8B00232127 /* ORLineChartButton.m in Sources */,
 				147A02FD28E41F3A00891C86 /* UserManager.m in Sources */,
+				1430D75328F14F8B00232127 /* ORLineChartValue.m in Sources */,
 				141A466628D85AEF0053F643 /* UIView+Toast.m in Sources */,
 				1446F2EC28D46EF30032134E /* DGPopUpViewController.m in Sources */,
 				1446F2AF28D302330032134E /* ViewController.m in Sources */,
 				1446F2C228D3098C0032134E /* AddUserViewController.m in Sources */,
 				1446F2C528D30A200032134E /* UserModel.m in Sources */,
 				1446F2A928D302330032134E /* AppDelegate.m in Sources */,
+				1430D75128F14F8B00232127 /* ORLineChartConfig.m in Sources */,
 				1446F2BA28D302350032134E /* main.m in Sources */,
 				1446F2D528D33D4A0032134E /* UserInfoCell.m in Sources */,
 				141A466028D855AE0053F643 /* WSDatePickerView.m in Sources */,
 				1446F2E128D44F8D0032134E /* AddWeightView.m in Sources */,
+				1430D75028F14F8B00232127 /* ORLineChartView.m in Sources */,
 				1446F2EB28D46EF30032134E /* DGPopUpViewTextView.m in Sources */,
 				1446F2CB28D30BA10032134E /* JListTap.m in Sources */,
 				141A466228D855AE0053F643 /* UIView+Extension.m in Sources */,
 				1446F2AC28D302330032134E /* SceneDelegate.m in Sources */,
-				141A467928D873E60053F643 /* WSLineChartView.m in Sources */,
 				1446F2DB28D44C4C0032134E /* ListViewController.m in Sources */,
 				141A465628D8492A0053F643 /* AddWeightViewController.m in Sources */,
-				141A467428D873E60053F643 /* YAxisView.m in Sources */,
-				141A467528D873E60053F643 /* XAxisView.m in Sources */,
 				1446F2CC28D30BA10032134E /* JListView.m in Sources */,
 				1446F2EE28D46EF30032134E /* DGPopUpView.m in Sources */,
+				1430D75728F14FA600232127 /* ORChartUtilities.m in Sources */,
+				1430D75228F14F8B00232127 /* ORLineChartCell.m in Sources */,
 				141A466128D855AE0053F643 /* NSDate+Extension.m in Sources */,
 				1446F2D228D30EEB0032134E /* JListCellView.m in Sources */,
 			);

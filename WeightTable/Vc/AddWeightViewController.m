@@ -133,6 +133,7 @@
     }];
     datepicker.dateLabelColor = [UIColor colorWithHexString:@"1296db"];
     datepicker.doneButtonColor = [UIColor colorWithHexString:@"1296db"];
+    datepicker.maxLimitDate = [NSDate date];
     [datepicker show];
 }
 

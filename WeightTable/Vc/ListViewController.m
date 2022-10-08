@@ -139,16 +139,17 @@
     self.weights = [self sortByAes:self.weights];
     NSMutableArray *weights = @[].mutableCopy;
     NSMutableArray *dates = @[].mutableCopy;
+    NSMutableArray *tizhis = @[].mutableCopy;
     [self.weights enumerateObjectsUsingBlock:^(WeightDataModel *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSString *weight = [NSString stringWithFormat:@"%.1lf", obj.bodyWeight];
-        NSString *date = obj.EnterDate;
+        NSString *date = [obj.EnterDate substringFromIndex:5];
+        NSString *tizhi = [NSString stringWithFormat:@"%.1lf", obj.bodyFatRate];
         [weights addObject:weight];
         [dates addObject:date];
+        [tizhis addObject:tizhi];
     }];
 
-    ListDetailViewController *detailVc = [[ListDetailViewController alloc] initWithMax:self.userModel.maxGoalWeight min:self.userModel.minGoalWeight weights:weights.copy XTitleArray:dates.copy];
-
-    [AppDelegate setInterfaceOrientation:UIInterfaceOrientationLandscapeRight];
+    ListDetailViewController *detailVc = [[ListDetailViewController alloc] initWithMax:self.userModel.maxGoalWeight min:self.userModel.minGoalWeight weights:weights.copy XTitleArray:dates.copy tizhis:tizhis];
     [self.navigationController pushViewController:detailVc animated:YES];
 }
 
