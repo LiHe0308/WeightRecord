@@ -35,15 +35,22 @@
 }
 
 - (NSArray <UserModel*> *)allUserModels {
-    NSArray *loaclUserModels = [[NSUserDefaults standardUserDefaults] valueForKey:self.app_Name];
+    
+    NSUbiquitousKeyValueStore *iCouldStore = [NSUbiquitousKeyValueStore defaultStore];
+    [iCouldStore synchronize];
+    NSArray *loaclUserModels = [iCouldStore objectForKey:self.app_Name];
+//    NSArray *loaclUserModels = [[NSUserDefaults standardUserDefaults] valueForKey:self.app_Name];
     NSArray *userModels = [UserModel mj_objectArrayWithKeyValuesArray:loaclUserModels];
     return userModels;
 }
 
 - (void)updateUserModels:(NSArray <UserModel*> *)userModels {
     NSArray *loaclUserModels = [UserModel mj_keyValuesArrayWithObjectArray:userModels];
-    [[NSUserDefaults standardUserDefaults] setValue:loaclUserModels forKey:self.app_Name];
-    [[NSUserDefaults standardUserDefaults] synchronize];
+    NSUbiquitousKeyValueStore *iCouldStore = [NSUbiquitousKeyValueStore defaultStore];
+    [iCouldStore synchronize];
+    [iCouldStore setArray:loaclUserModels forKey:self.app_Name];
+//    [[NSUserDefaults standardUserDefaults] setValue:loaclUserModels forKey:self.app_Name];
+//    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (NSInteger)indexForAllUserModels:(UserModel *)userModel {
